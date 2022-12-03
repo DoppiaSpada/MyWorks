@@ -1,19 +1,44 @@
-heading{
-
+@font-face {
+    font-family: "Chewy";
+    src: url("/Fonts/Chewy/Chewy-Regular.ttf");
 }
 
-title{
-
+body{
+    background-color: cornflowerblue;
+    font-family: Chewy;
 }
 
-menu{
-
+#heading{
+    border: 2px solid black;
 }
 
-home_p{
-
+#title{
+    color: goldenrod;
+    font-weight: bolder;
 }
 
-contacts_p{
-    
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    text-shadow: -1px black 1px black 1px black -1px black;
+}
+
+#home_p{
+    color: goldenrod;
+}
+
+#contacts_p{
+    color: goldenrod;
+}
+
+#box_first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project{
+
 }
