@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Chewy";
-    src: url("/Fonts/Chewy/Chewy-Regular.ttf");
+    src: url('/Fonts/Chewy/Chewy-Regular.ttf') format('truetype');
 }
 
 body{
@@ -22,6 +22,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    text-decoration: none;
     text-shadow: -1px black 1px black 1px black -1px black;
 }
 
