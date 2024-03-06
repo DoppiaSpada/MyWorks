@@ -1,0 +1,1 @@
+This game was developed in 2023 by Tommaso Ripanti and improved in 2024

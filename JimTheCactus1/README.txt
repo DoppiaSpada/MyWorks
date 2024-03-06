@@ -1,0 +1,1 @@
+This game was developed in 2022 by Tommaso Ripanti
