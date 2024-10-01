@@ -1,91 +1,66 @@
 <!DOCTYPE html>
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
-        <title>Tom_Dev</title> 
+        <title>Tommaso Ripanti's portfolio</title> 
     </head>
-    <body onload="onload()">
-        <div class="menu">
-            <div class="no_menu">
-                <div class="r_arrow_menu"><b>=></b></div>
-                <div class="header_menu"><h6>menu</h6></div>
-                <div class="r_arrow_menu"><b>=></b></div>
+    <body>
+        <div class="parent_box flex_r_s_s">
+            <div style="z-index: 1; background-color: black; color: white; flex-grow: 2;">
+                <div style="padding: 10% 10% 10% 10%; width: 30vw; text-wrap: nowrap; text-align: center;">
+                    <h2 style="font-family: Roboto_w; font-size: 2.5vw;">Tommaso Ripanti</h2>
+                </div>
+                <div style="margin-left: 60%; width: 20vw; height: 20vw">
+                    <img src="Items/My_Portrait.jpg" style="width: 100%; height: 100%; object-fit: cover; border-style: solid; border-color: black; border-width: 5px; border-radius: 100%;" alt="My portrait">
+                </div>
             </div>
-            <div class="_menu">
-                <div class="other"><h5>Empty menu</h5></div>
-            </div>
-        </div>
-        <header>
-            <h1>Tom_Dev</h1>
-        </header>
-        <div class = "topics_box">
-            <div class="topic_item">
-                <p>
-                    <b>Welcome!</b> You are on <b>Tommaso Ripanti</b>'s personal website.
-                    This web page stores my main projects and various works accomplished up to now,
-                    subdivided by headlines of topic. Swipe down to find them!
-                </p>
-                <br>
-                <p>
-                    <b>Just few words to introduce myself:</b> <br>
-                    Hi! I'm graduated at the scientific R. Donatelli high school in Terni
-                    and attending the Alma Mater Studiorum of Bologna currently. 
-                    In details, I'm specifally studying IT engineering in the second year of university whereas
-                    off duty, I highly prefer developing videogames rather than playing them!!
-                    <br><br>
-                    <b>My personal skills:</b> 
-                    <ul>
-                        <li>Good knowledge of Java, C#, C</i>
-                        <li>Partial knowledge of Unity engine for the development of small videogames as self-taught</i>
-                        <li>Partial knowledge of html, css, javascript as self-taught</i>
-                        <li>Low knowledge of PHP and python</li>
+            <div style="padding: 4em; background-color: lightskyblue; color: black; flex-grow: 1">
+                <div class="nav_bar">
+                    <ul class="nav justify-content-end nav-tabs" style="flex-wrap: nowrap;">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">Who I am</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="carousel.html">Carousel</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="works.html">Works</a>
+                        </li>
                     </ul>
-
-                    Last but not least, <b>may your surfing be enjoyable!</b>    
-                </p>
-            </div>
-            <hr>
-            <div class="topic_item">
-                <h4>My Videogames</h4>
-                <div> > <a href="JimTheCactus1/JimTheCactus1.html">Jim The Cactus</a>
-                        <p>This platform game is about Jim, an humble cactus trying to fight against worm-like enemies and to reach
-                        new worlds from one gate to the next. Help Jim to overcome his journey and collect gems as much as possible!
-                        Once your player gets enough green gems, unlock new superpowers and have fun with Jim!
-                        <br><br>This content runs on the web, click or tap and play!
-                        </p>
                 </div>
-                <div> > <a href="Dona_Game/Dona_Game.html">Dona Game 2</a></div>
-                        <p>"Dona Game 2" is the second version of the R. Donatelli high school video game. It's an educational project
-                        realized to show the everyday life inside the institute to new pupils. This bizarre and revolutionary enviroment let
-                        you explore odd places and virtual classrooms where either listening to intriguing teachers' explanations or making a try at
-                        solving physic or latin questions and problems!
-                    
-                        <br><br>This content runs on the web, click or tap and play!
-                        </p>
-                <div> > <a href="PongClone/test.c">Pong clone</a></div>
-                        <p>A basic clone of the old-fashioned but still fabulous "Pong" videogame. Let's challenge your beside friend!
-
-                        <br><br>This content runs on windows os. If this is your case, download it and compile the C source file. Double click on the executable and play! [keys to play: w-s and i-k]   
-                        </p>
+                <div style="width:85%; position: relative; right: -15%; padding-top: 1em;">
+                    <p>
+                        <b>Welcome!</b> You are on <b>Tommaso Ripanti</b>'s portfolio page.
+                        This web site tells you something more about me, stores my main projects and miscellanous works I accomplished up to now.
+                        Take a glance up at the menu sections and below too!
+                    </p>
+                    <p>Last but not least, <b>may your surfing be enjoyable!</b>  </p>
+                    <br>
+                    <p>
+                        <h3>Just few words to introduce myself</h3>
+                        <ul>
+                            <li>> Born in Terni, Umbria, Italy. 21 years old.</li>
+                            <li>> Graduated at the scientific Renato Donatelli high school in Terni</li>
+                            <li>> Attending the <b>Alma Mater Studiorum of Bologna</b> for bachelor degree in IT engineering.</li>
+                            <li>> Employed by <b>Unibo Motorsport team</b> and worked in the IT department for few months</li>
+                            <li>> Fond of <b>videogames development</b>. Aim there for my professional future.</li>
+                        </ul>  
+                    </p>
+                    <br>
+                    <p>
+                        <h3>Contact me:</h3>
+                        <ul>
+                            <li>> <b>E-mail:</b> <a href="mailto:tommaso.rip03@gmail.com">tommaso.rip03@gmail.com</a></li>
+                            <li>> <b>Facebook:</b> <a href="https://www.facebook.com/tommaso.ripanti.12327">Tommaso Ripanti</a></li>
+                            <li>> <b>Linkedin:</b> <a href="https://www.linkedin.com/in/tommaso-ripanti-6a61b032a/">Tommaso Ripanti</a></li>
+                        </ul>  
+                    </p>
                 </div>
-                <h4>My other applications</h4>
-                <div> > <a href="PicturesExtractor/PicturesExtractor_LinuxVersion.c">PicturesExtractor (C for Linux)</a></div>
-                <div> > <a href="PicturesExtractor/PicturesExtractor_MacOSVersion.c">PicturesExtractor (C for Mac)</a></div>
-                <p>A command-line program able to randomly select the desired number of files - any type - from a specific directory and then copy them to another one.
-
-                <br><br>First, compile the C source file on your machine. Second, invoke the program after compiling it, place your current directory on the folder containing the executable and write the next line on your shell with the right substitution: ./PicturesExtractor 'source_dir' 'dest_dir' 'number_of_files'.
-                </p>
         </div>
-        </div>
-        <br>
-        <footer>
-            <hr>
-            <h5>Contact me by:</h5>
-            <div class="social_box">
-                <div class="social_item"><p>e-mail: <a href="mailto:tommaso.rip03@gmail.com">tommaso.rip03@gmail.com</a></p></div>
-                <div class="social_item"><p>Instagram: <a href="https://www.instagram.com/tomma3006/">tomma3006</a></p></div>
-                <div class="social_item"><p>Facebook: <a href="https://www.facebook.com/tommaso.ripanti.12327">Tommaso Ripanti</a></p></div>
-            </div>
-        </footer>
     </body>
 </html>
