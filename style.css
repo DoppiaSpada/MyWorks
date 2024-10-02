@@ -135,6 +135,10 @@ a:hover{
     color: black;
 }
 
+.side_content{
+    height: 100vh;
+}
+
 .text_content{
     width:85%; 
     position: relative; 
