@@ -128,7 +128,7 @@ a:hover{
     border-radius: 200px;
 }
 
-.main_content{
+.main_content, .single_content{
     width: 100%;
     padding: 2em;
     background-color: lightskyblue;
