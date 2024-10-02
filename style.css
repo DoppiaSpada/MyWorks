@@ -164,6 +164,13 @@ a:hover{
     justify-content: center;
 }
 
+.carousel a{
+    text-shadow:0.05em  0.05em 0 black,
+                -0.05em -0.05em 0 black,  
+                0.05em -0.05em 0 black,
+                -0.05em  0.05em 0 black;
+}
+
 .carousel video, .carousel img{
     background-color: black;
     object-fit: contain;

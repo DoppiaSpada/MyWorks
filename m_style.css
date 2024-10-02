@@ -13,6 +13,7 @@
 
     .flex_r_s_s{
         flex-direction: column-reverse;
+        justify-content: end;
     }
 
     .side_content{
@@ -38,6 +39,10 @@
         object-fit: cover; 
         border: 5px solid black; 
         border-radius: 200px;
+    }
+
+    .main_content{
+        height: 90vh;
     }
 
     .text_content{
