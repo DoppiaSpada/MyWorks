@@ -158,10 +158,10 @@ a:hover{
     border: solid black 1px;
 }
 
-.carousel{
+.carousel_box{
+    height: 100vw;
     margin: auto;
     padding-top: 2%;
-    min-height: 100vh;
     width: 80%;
     display: flex;
     flex-direction: column;
