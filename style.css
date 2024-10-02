@@ -15,10 +15,14 @@ body{
     background-color: beige;
 }
 
+h2{
+    font-size: 2.5vw;
+}
+
 h3{
     margin-top: 2%;
     font-weight: bold;
-    font-size: 170%;
+    font-size: 3vw;
     color: white;
     background-color: black;
     border: 2px solid black;
@@ -33,18 +37,15 @@ ul{
 
 a{
     text-decoration: none;
-    font-weight: bold;
     color: white;
-    text-shadow:      
-    0.05em  0.05em 0 black,
-   -0.05em -0.05em 0 black,  
-   0.05em -0.05em 0 black,
-   -0.05em  0.05em 0 black,
-   0.05em  0.05em 0 black;
+    font-weight: bold;
 }
 
 a:hover{
     font-size: larger;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -52,26 +53,34 @@ a:hover{
     bottom: 20%;
 }
 
+.nav{
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
 .nav-tabs{
     border-color: black;
-    align-items: baseline;
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    border-color: black
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     background-color: black;
     color: white;
     border-color: black;
-}
-
-.nav-link:focus, .nav-link:hover{
-    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .nav-link{
+    border-radius: 0;
     text-shadow:      
      0.1em  0.1em 0 gold,
     -0.05em -0.05em 0 gold,  
@@ -91,8 +100,50 @@ a:hover{
     align-items: stretch;
 }
 
+.side_content{
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+
+.side_content h2{
+    margin: 30px 0 30px 0;
+    text-wrap: nowrap;
+    text-align: center;
+    font-family: Roboto_w; 
+    width: 30vw;
+}
+
+.side_content div{
+    margin-left: 60%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.side_content img{
+    width: 20vw; 
+    height: 20vw; 
+    object-fit: cover; 
+    border: 5px solid black; 
+    border-radius: 200px;
+}
+
+.main_content{
+    width: 100%;
+    padding: 2em;
+    background-color: lightskyblue;
+    color: black;
+}
+
+.text_content{
+    width:85%; 
+    position: relative; 
+    right: -15%; 
+    padding-top: 1em;
+}
+
 .parent_box{
-    width: 100%; 
+    min-width: 100vw; 
     min-height: 100vh; 
 }
 
@@ -103,6 +154,22 @@ a:hover{
     border: solid black 1px;
 }
 
-@media only screen and (max-width: 600px){
-    /* some commands*/
+.carousel{
+    margin: auto;
+    padding-top: 2%;
+    min-height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel video, .carousel img{
+    background-color: black;
+    object-fit: contain;
+}
+
+.works{
+    width: 100%; 
+    height: 100%;
 }
